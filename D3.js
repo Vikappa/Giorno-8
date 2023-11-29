@@ -275,5 +275,5 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
-
-console.log()
+let estratto = Math.floor(Math.random() * 10)
+console.log("Estratto il numero [" + estratto + "] Nome: " + starWarsCharacters[estratto].name + " altezza:" + starWarsCharacters[estratto].height + "cm peso:" + starWarsCharacters[estratto].mass + " data di nascita: " + starWarsCharacters[estratto].birth_year)

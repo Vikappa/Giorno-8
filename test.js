@@ -101,6 +101,9 @@ const starWarsCharacters = [
     },
 ]
 
+let estratto = Math.floor(Math.random() * 10)
+
+console.log("Estratto il numero [" + estratto + "] Nome: " + starWarsCharacters[estratto].name + " altezza:" + starWarsCharacters[estratto].height + "cm peso:"+ starWarsCharacters[estratto].mass + " data di nascita: " +starWarsCharacters[estratto].birth_year)
 /* --EXTRA-- ESERCIZIO 9
   Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "charactersNames" le stringhe corrispondenti a personaggi con lo stesso nome.
   Una volta fatto crea un console.log per controllare la proprietà length di "charactersNames" prima e dopo l'operazione.
