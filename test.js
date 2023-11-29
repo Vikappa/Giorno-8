@@ -106,10 +106,43 @@ const starWarsCharacters = [
   Una volta fatto crea un console.log per controllare la proprietà length di "charactersNames" prima e dopo l'operazione.
 */
 
-.console.log("Prima dell'operazione")
-for (let i = 0; i < starWarsCharacters.length; i++) {
-    console.log(starWarsCharacters[i].name.length) //Prima dell'operazione
-  }
+// console.log("Prima dell'operazione")
+// for (let i = 0; i < starWarsCharacters.length; i++) {
+//     console.log(starWarsCharacters[i].name.length) //Prima dell'operazione
+//     console.log("Name " + starWarsCharacters[i].name + " gender: " + starWarsCharacters[i].gender)
+//   }
+
+  
+// let starWarsFemaleCharacters = []
+// for (let i = 0; i < starWarsCharacters.length; i++) {
+//   if (starWarsCharacters[i].gender === "female") {
+//     starWarsFemaleCharacters.push(starWarsCharacters[i])
+//   }
+// }
+
+
+//  let x = 1
+// do{
+//     x=0
+//     for (let index = 0; index < starWarsCharacters.length; index++) {
+//         for (let indexF = 0; indexF < starWarsFemaleCharacters.length; indexF++) {
+//             if(starWarsCharacters[index].gender === starWarsFemaleCharacters[indexF].gender) {
+//                 x=1
+//                 starWarsCharacters.splice(index,1)
+//             }
+//         }
+//     }
+// } while(x===1)
+
+
+// console.log("Dopo l'operazione")
+// for (let i = 0; i < starWarsCharacters.length; i++) {
+//     console.log(starWarsCharacters[i].name.length) // Dopo l'operazione
+//     console.log("Name " + starWarsCharacters[i].name + " gender: " + starWarsCharacters[i].gender)
+
+// }
+
+
   
 
 // for(let i = 0; i < starWarsCharacters.length ; i++){
@@ -182,4 +215,3 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
 //       break;
 //   }
   
-
